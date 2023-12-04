@@ -1,0 +1,34 @@
+:root {
+    --grey-border: rgba(168, 166, 166, 0.614)
+}
+
+body {
+    width: 100vw;
+}
+header{
+    border-bottom: 1px solid var(--grey-border);
+    height: 10rem;
+    width: 100vw;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.name img {
+    width: 3rem;
+    border: 1px solid var(--grey-border);
+    border-radius: 50px;
+}
+
+td, th {
+    border: 1px solid var(--grey-border);
+}
+
+table {
+    margin: 2rem;
+    
+    
+}
+
